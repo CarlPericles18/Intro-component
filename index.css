@@ -26,6 +26,7 @@ body{
 
 .headerTitle h1{
     font-size: 30px;
+    
 }
 .headerTitle p{
     line-height: 1.6em;
@@ -43,6 +44,7 @@ body{
     background-color: var(--Blue);
     border-radius: 10px;
     font-size: 15px;
+    font-weight: 600;
     box-shadow: var(--Dark-Blue) 0 5px 3px;
 }
 
@@ -66,24 +68,24 @@ body{
 .formBox1,
 .formBox2,
 .formBox3,
-.formBox4, input{
-   
+.formBox4{
+    margin: 0 0 0 15px;
+}
+.firstName,
+.lastName,
+.emailAddress,
+.password{
     font-family: var(--font-family);
     font-weight: 500;
     padding: 15px 60px 15px 15px;
     font-weight: 600;
     font-size: 15px;
-    border: 1px solid --Dark-Blue;
+    border: 1px solid var(--Grayish-Blue);
     border-radius: 5px;
+    
 }
 
-.formBox1,
-.formBox2,
-.formBox3,
-.formBox4{
-    padding: 0;
-    margin: 0 0 0 15px;
-}
+
 
 
 
@@ -122,7 +124,7 @@ body{
     color: #ffff;
     margin: 20px 25px 0 15px;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-family: var(--font-family);
     font-weight: 400;
     letter-spacing: 2px;
@@ -141,6 +143,7 @@ body{
 }
 #terms{
     color: var(--Red);
+    cursor: pointer;
 }
 
 @media(min-width:950px){
@@ -197,28 +200,32 @@ body{
         padding: 10px 160px 5px 40px;
     }
     
-.formBox1,
-.formBox2,
-.formBox3,
-.formBox4{
-    padding: 0;
-    margin: 20px 0 0 0;
+    .formBox1,
+    .formBox2,
+    .formBox3,
+    .formBox4{
+        margin: 20px 0 0 0;
+    }
+.firstName,
+.lastName,
+.emailAddress,
+.password{
+    font-family: var(--font-family);
+    font-weight: 500;
+    padding: 15px 210px 15px 15px;
+    font-weight: 600;
+    font-size: 15px;
+    border: 1px solid var(--Grayish-Blue);
+    border-radius: 5px;
 }
-.formBox1,
-.formBox2,
-.formBox3,
-.formBox4, input{
-   padding-right: 210px;
-   
-}
+
+    
 .formButton{
     margin: 20px 0 0 0;
     padding: 0;
     width: 430px;
-    /* margin: 20px 0 0 0;
-    padding: 0 100px 0 100px;
-    width: 230px;
-    font-size: 15px; */
+    font-size: 15px;
+   
 }
 
 .service{
